@@ -6,27 +6,16 @@ public class HalfBlockMatrixGeneratorTests
     public void Generate_AppropriatelyConstructedStringReturned()
     {
         // Assign
-        var accessor = new BooleanArrayAccessor(
-            new[,]
-            {
-                { true, true, true, false },
-                { true, false, false, true },
-                { true, false, false, true },
-                { true, true, true, false },
-                { true, false, false, true },
-                { true, false, false, true },
-                { true, true, true, false },
-            }
-        );
+        var accessor = TestData.GenerateSmileyAccessor();
         var generator = new HalfBlockMatrixGenerator(accessor);
 
         // Act
         string result = generator.Generate();
-
+        
         // Assert
-        result.Should().Be("█▀▀▄" + Environment.NewLine +
-                           "█▄▄▀" + Environment.NewLine +
-                           "█  █" + Environment.NewLine +
-                           "▀▀▀ " + Environment.NewLine);
+        result.Should().Be(" ▄▀▀▀▀▄ " + Environment.NewLine +
+                           "█ █ █  █" + Environment.NewLine +
+                           "█ ▄▄▄▀ █" + Environment.NewLine +
+                           " ▀▄▄▄▄▀ " + Environment.NewLine);
     }
 }
