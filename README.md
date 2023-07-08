@@ -56,3 +56,15 @@ Below are a list of all character matrix generators provided by this library wit
   ██        ██  
     ████████    
 ```
+
+### `SpacedDotBlockMatrixGenerator`
+```text
+. . ■ ■ ■ ■ . .
+. ■ . . . . ■ .
+■ . ■ . ■ . . ■
+■ . ■ . ■ . . ■
+■ . . . . ■ . ■
+■ . ■ ■ ■ . . ■
+. ■ . . . . ■ .
+. . ■ ■ ■ ■ . .
+```
