@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharMatrix", "CharMatrix\CharMatrix.csproj", "{B22820F9-D19C-4668-B5CA-B6E7B3573418}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharMatrix.Tests", "CharMatrix.Tests\CharMatrix.Tests.csproj", "{42DF7985-87CB-4843-8BAD-424CD4601305}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{B22820F9-D19C-4668-B5CA-B6E7B3573418}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B22820F9-D19C-4668-B5CA-B6E7B3573418}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B22820F9-D19C-4668-B5CA-B6E7B3573418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42DF7985-87CB-4843-8BAD-424CD4601305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DF7985-87CB-4843-8BAD-424CD4601305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DF7985-87CB-4843-8BAD-424CD4601305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DF7985-87CB-4843-8BAD-424CD4601305}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
