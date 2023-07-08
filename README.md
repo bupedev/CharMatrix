@@ -68,3 +68,17 @@ Below are a list of all character matrix generators provided by this library wit
 . ■ . . . . ■ .
 . . ■ ■ ■ ■ . .
 ```
+
+### `EightDotBrailleMatrixGenerator`
+```text
+⡔⡍⡍⢢
+⠣⣒⣊⠜
+```
+
+### `SixDotBrailleMatrixGenerator` 
+This one is a bit cooked... 3/10, wouldn't recommend...
+```text
+⠔⠍⠍⠢
+⠇⠥⠕⠸
+⠈⠒⠒⠁
+```
